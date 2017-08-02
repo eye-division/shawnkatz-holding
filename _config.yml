@@ -6,18 +6,18 @@ exclude:
   - "/vendor/"
 
 # Site settings
-title: Neat Eye Gallery
-subtitle: A base Eye Gallery built on Bourbon and Neat
-name: Alun Ward
-description: A base theme built on Bourbon and Neat
+title: Martha Harris
+subtitle: Martha Harris Eye Gallery built on Bourbon and Neat
+name: Martha Harris
+description: Martha Harris gallery of art
 # Base URL of site (i.e. /blog). It should always start with a slash,
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
 baseurl: ""
 # the base hostname & protocol for your site
-url: "http://www.example.com"
+url: "http://www.marthaharris.com"
 logo: "/siteicon.png"
-email: a.ward@eyedivision.com
+email: allatsea3@hotmail.com
 
 # Build settings
 markdown: kramdown

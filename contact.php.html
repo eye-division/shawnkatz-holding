@@ -1,7 +1,7 @@
 ---
-permalink: /thanks/
+layout: empty
+permalink: /contact.php.html
 ---
-
 <head>
 <title>Martha Harris</title>
 <meta name="description" content="Artist">
@@ -29,8 +29,34 @@ content="text/html; charset=iso-8859-1">
   <tr valign="top" align="center">
     <td>
 
-      <p>Thanks for your message!</p>
+      <form action="/thanks/" method="post" id="contact-form">
 
+      <fieldset>
+
+            <input type="hidden" name="_to" value="">
+            <input type="hidden" name="_cc" value="a.ward@eyedivision.com">
+            <input type="hidden" name="_subject" value="Web form">
+            <p>
+            <label for="name">Name:</label>
+            <input type="text" name="name">
+            </p>
+            <p>
+            <label for="_replyto">Email:</label>
+            <input type="text" name="_replyto">
+            </p>
+            <p>
+            <label>Message</label>
+            <textarea name="message"></textarea>
+            </p>
+            {% if site.recaptcha_site_key %}
+            <div class="g-recaptcha" data-sitekey="{{ site.recaptcha_site_key }}"></div>
+            {% endif %}
+        <p>
+            <input type="submit" value="Send message">
+            </p>
+      </fieldset>
+
+      </form>
 <table width="100%" border="0" bordercolor="#cccccc" cellspacing="0" cellpadding="2" align="center">
 
       <hr width="300" size="1" align="center">

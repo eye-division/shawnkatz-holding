@@ -1,0 +1,32 @@
+/* stylesheet for artist management pages */
+/* Alun Ward, 2001 for EyeDivision www.eyedivision.co.uk */
+/* alun@eyedivision.co.uk */
+
+body, p, h1, h2, h3, h4, strong, b, em, i, address, blockquote, a, li, ul, ol { font-family: verdana, helvetica, arial, sans-serif; }
+
+body { color: #FFFFFF; background-color: #666666; }
+
+h1 { font-size: 1.4em; color: #FFFFFF; text-decoration: none ; font-weight: bold; line-height: normal; text-align: center; border: 1px black solid; background-color: #999999; }
+h2 { font-size: 1.2em; color: #FFFFFF; text-decoration: none ; font-weight: bold; }
+h3 { font-size: 1em; color: #FFFFFF; text-decoration: none ; font-weight: bold; line-height: normal; background-color: #003333;  border: 1px black solid; }
+
+
+p { font-size: 0.7em; color: #FFFFFF; }
+ul { font-size: 0.9em; color: #FFFFFF; }
+li { font-size: 0.9em; color: #FFFFFF; }
+ol { font-size: 0.9em; color: #FFFFFF; }
+
+address { text-align: center; font-size: 0.7em; font-style: normal; border: 1px black solid; background-color: #999999;  padding: 10px; }
+
+b { color: #FFFFFF; text-decoration: none ; font-weight: bold; }
+
+a { color: #ffffcc; text-decoration: none; }
+a:active { color: #ffcc00; text-decoration: underline; }
+a:hover { color: #ffcc33; text-decoration: underline; background-color: #000000; }
+a:visited { color: #ffffcc; text-decoration: none; }
+
+.pictures { border: 1px black solid; background-color: #FFFFFF; }
+
+.navbox { border: 1px black solid; background-color: #ccccff; padding: 10px; } 
+
+.hilight { color: #ff0000; }
